@@ -1,10 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import StarsCanvas from '@/components/main/StarBackground'
 import './globals.css'
-import Navbar from '@/components/main/Navbar'
 import Background from '@/components/main/Background'
-import Navbars from '@/components/main/navbarss'
 import Nabs from '@/components/main/nabs'
 
 const inter = Inter({ subsets: ['latin'] })
