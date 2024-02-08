@@ -82,16 +82,19 @@ export const Skill_data = [
   
   export const Socials = [
     {
-      name: "Discord",
+      name: "Instagram",
       src: "/instagram.svg",
+      url: "https://www.instagram.com/abhishek_kumar_anmol?igsh=MXdoZmRieDg2aGZnOA=="
     },
     {
       name: "Facebook",
       src: "/facebook.svg",
+      url: "https://m.facebook.com/people/Author-Abhishek-Kumar-Anmol/100063681503453/"
     },
     {
-      name: "Instagram",
-      src: "/discord.svg",
+      name: "LinkedIn",
+      src: "/linIN.png",
+      url: "https://www.linkedin.com/in/abhishek-kumar-anmol-a4690711a"
     },
   ];
   

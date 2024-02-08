@@ -62,7 +62,7 @@ const StarBackground = ({ color }) => {
 };
 
 const Background = () => (
-  <div className="absolute inset-0 z-[-1]">
+  <div className=" fixed inset-0 z-[-1] h-full">
     <Canvas>
       <Suspense fallback={null}>
         <StarBackground color="#FF000D" />
