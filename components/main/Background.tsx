@@ -39,14 +39,17 @@
 // export default Background;
 "use client"
 import React, { useState, useRef, Suspense } from 'react';
-import { Canvas, useFrame } from '@react-three/fiber';
-import { Points, PointMaterial } from '@react-three/drei';
-import { motion } from 'framer-motion';
+import { Canvas, useFrame, extend} from '@react-three/fiber';
+import { Points, PointMaterial, Preload} from '@react-three/drei';
+import { LayoutGroup, motion } from 'framer-motion';
 // @ts-ignore
 import * as random from 'maath/random/dist/maath-random.esm';
+import { FaDiceFive } from 'react-icons/fa';
 
-const StarBackground = ({ color }) => {
-  const ref: any = useRef();
+
+
+const StarBackground = ({ color }: { color: string }) => {
+  const ref : any = useRef();
   const [sphere] = useState(() => random.inSphere(new Float32Array(3500), { radius: 4.5 }));
 
   useFrame((state, delta) => {
@@ -66,12 +69,12 @@ const Background = () => (
     <Canvas>
       <Suspense fallback={null}>
         <StarBackground color="#FF000D" />
-        <motion.group
+        {/* <motion.group
           initial={{ x: 0.1, y: 0.1 }} // Adjust offset as needed
           animate={{ x: -0.1, y: -0.1 }} // Adjust offset as needed
-        >
+        > */}
           <StarBackground  color="#0165FC"/>
-        </motion.group>
+        {/* </motion.group> */}
       </Suspense>
     </Canvas>
   </div>
