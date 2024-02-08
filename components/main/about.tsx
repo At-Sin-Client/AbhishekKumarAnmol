@@ -24,13 +24,13 @@ const About = () => {
           <p className="md:text-lg text-base text-black leading-relaxed">
           Abhishek Kumar Anmol started implementing his career with poetry in the form of nature,
 justice, crime, the deep lesson given by the mother soul which vanishes early, and how to
-sustain in this world. The book's name is-- A Fossil of Time, Dawn in the Day, An Echo of
+sustain in this world. The book&apos;s name is-- A Fossil of Time, Dawn in the Day, An Echo of
 Silence, The National Flames of Decades and an anthology that describes the lean down
 and waves rising of the new day. A young enthusiast whose favourite field of profession
 is the film industry. I started my studies at a film institute, with a passionate mind that
 leans towards my goal in writing, acting, directing scriptwriting, plays etc. It has tended
-him to show his talent in the writing world through a poetry book “Fossil of Time
-”
+him to show his talent in the writing world through a poetry book &apos;Fossil of Time
+&apos;
 .it is the
 first stepping stone of life. He aspires to make a feature film. A soft thinker of society
 towards helping poor, descendants to let them grow up. Through his writing, he always
