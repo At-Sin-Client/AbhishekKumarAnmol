@@ -38,9 +38,9 @@ const HeroContentss = () => {
         <motion.p
         variants={slideInFromLeft(1.6)}
         className='text-sm md:text-base lg:text-lg xl:text-xl text-gray-300 my-5 max-w-[600px]'>
-          Author of "AN ECHO OF SILENCE" and 
-            "THE NATIONAL FLAME
-              OF DECADES"
+          Author of &quot;AN ECHO OF SILENCE&quot; and 
+            &quot;THE NATIONAL FLAME
+              OF DECADES&quot;
         
         </motion.p>
         <motion.a
